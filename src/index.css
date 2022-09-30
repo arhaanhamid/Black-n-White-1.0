@@ -1,0 +1,43 @@
+* {
+    font-family: 'Silkscreen', cursive;
+    font-size: 30px;
+    margin:0px;
+    box-sizing: border-box;
+    background-image: url("bg.png");
+    background-repeat:no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.div-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.div-elements{
+    align-self: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.box{
+    background-image: none;
+    height: 100px;
+    width: 100px;
+    border: 3px black solid;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+button{
+    background-image: none;
+    grid-column: span 3;
+    margin: 5px;
+    height: 50px;
+    border: 3px black solid;
+    background: linear-gradient(90deg, black 25%, white 100%);
+    border-radius: 10px;   
+    color: white; 
+}
